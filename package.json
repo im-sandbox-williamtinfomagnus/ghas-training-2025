@@ -17,8 +17,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.10",
-    "lodash": 
+    "express": "^4.18.2",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
