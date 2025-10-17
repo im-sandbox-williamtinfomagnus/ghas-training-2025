@@ -1,5 +1,5 @@
 # Core web framework dependencies
-Django==3.2.12
+Django==4.2.25
 Flask==2.0.1
 requests==2.25.1
 
