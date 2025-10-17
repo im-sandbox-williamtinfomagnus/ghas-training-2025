@@ -19,6 +19,8 @@ updates:
     commit-message:
       prefix: "dependabot made it!!!"
       include: scope
+    assignees:
+      - williamt-infomagnus
 
   - package-ecosystem: "pip"
     directory: "/" # Location of package manifests
@@ -29,6 +31,8 @@ updates:
       everything-python:
         patterns:
           - "*"
+    assignees:
+      - williamt-infomagnus
 
     
   
