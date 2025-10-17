@@ -10,10 +10,15 @@ updates:
     schedule:
       interval: cron
       cronjob: "*/1 0 * * *"
+    ignore:
+      - dependency-name: "moment"
     groups:
       everything-npm:
         patterns:
           - "*"
+    commit-message:
+      prefix: "dependabot made it!!!"
+      include: scope
 
   - package-ecosystem: "pip"
     directory: "/" # Location of package manifests
