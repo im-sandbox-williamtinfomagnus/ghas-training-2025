@@ -19,7 +19,17 @@
   "dependencies": {
     "express": "^4.18.2",
     "lodash": "4.17.21",
-    "babel-plugin-lodash": "3.3.4"
+    "babel-plugin-lodash": "3.3.4",
+    "moment": "2.19.4",
+    "axios": "0.19.2",
+    "mongoose": "4.13.21",
+    "chalk": "2.4.2",
+    "debug": "2.6.9",
+    "jsonwebtoken": "7.4.3",
+    "request": "2.88.2",
+    "body-parser": "1.15.2",
+    "async": "2.6.3",
+    "winston": "2.4.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
