@@ -8,20 +8,22 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 2
-    ignore:
-      dependency-name: "lodash"
-    versioning-strategy: "widen"
-  - package-ecosystem: "pub"
-    directory: "/"
-    schedule:
-      internal: "weekly"
+      interval: cron
+      cronjob: "*/1 0 * * *"
+    groups:
+      everything-npm:
+        patterns:
+          - "*"
+
   - package-ecosystem: "pip"
-    directory: "/"
-    open-pull-requests-limit: 1
-    ignore:
-      dependency-name: "jinja2"
+    directory: "/" # Location of package manifests
     schedule:
-      internal: "weekly"
+      interval: cron
+      cronjob: "*/1 0 * * *"
+    groups:
+      everything-python:
+        patterns:
+          - "*"
+
     
+  
