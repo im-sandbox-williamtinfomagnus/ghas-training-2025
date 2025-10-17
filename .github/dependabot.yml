@@ -8,8 +8,7 @@ registries:
   npm-registry-new:
     type: npm-registry
     url: "https://npm.pkg.github.com"
-    username: ${{secrets.MY_ARTIFACTORY_PASSWORD}}
-    password: ${{secrets.MY_ARTIFACTORY_USERNAME}}
+    token: ${{secrets.MY_ARTIFACTORY_PASSWORD}}
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
