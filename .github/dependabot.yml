@@ -16,3 +16,10 @@ updates:
     directory: "/"
     schedule:
       internal: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/"
+    ignore:
+      dependency-name: "jinja2"
+    schedule:
+      internal: "weekly"
+    
