@@ -12,6 +12,7 @@ updates:
     open-pull-requests-limit: 2
     ignore:
       dependency-name: "lodash"
+    versioning-strategy: "widen"
   - package-ecosystem: "pub"
     directory: "/"
     schedule:
