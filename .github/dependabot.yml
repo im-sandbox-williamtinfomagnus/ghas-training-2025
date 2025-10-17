@@ -15,7 +15,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: cron
-      cronjob: "*/1 0 * * *"
+      cronjob: "8 40 * * *"
     ignore:
       - dependency-name: "moment"
     groups:
@@ -35,7 +35,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: cron
-      cronjob: "*/1 0 * * *"
+      cronjob: "* * * * *"
     groups:
       everything-python:
         patterns:
