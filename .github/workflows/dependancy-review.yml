@@ -4,7 +4,7 @@ on: [pull_request]
 permissions:
   contents: write
   pull-requests: write
-  
+
 jobs:
   dependency-review:
     runs-on: ubuntu-latest
@@ -15,5 +15,6 @@ jobs:
         uses: actions/dependency-review-action@v4
         with:
           comment-summary-in-pr: always
+          fail-on-severity: low
         
 
