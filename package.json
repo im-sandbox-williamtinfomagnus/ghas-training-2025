@@ -28,7 +28,7 @@
     "jsonwebtoken": "7.4.3",
     "lodash": "4.17.21",
     "moment": "2.19.4",
-    "mongoose": "4.13.21",
+    "mongoose": "8.19.2",
     "react": "^19.0.0",
     "request": "2.88.2",
     "vue": "^3.0.0",
